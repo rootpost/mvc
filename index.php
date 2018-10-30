@@ -11,30 +11,10 @@ spl_autoload_register(function($class) {
   }
 });
 /*=================================================================*/
-session_start();
-
-/*=================================================================*/
-echo <<<HEAD
-<!DOCUMENT html>
-<html>
-<head>
-  <link rel="stylesheets" type="text/css" href="" />
-  <script type="text/javascript" src=""></script>
-  <script type="text/javascript">
-    
-  </script>
-</head>
-<body style="background-color:#584e43;color:#f6ecd4;">
-HEAD;
-
+//session_start();
 /*=================================================================*/
 $router = new Router;
 $router->run();
 
 
-
 ?>
-
-  <div class=""></div>
-</body>
-</html>
